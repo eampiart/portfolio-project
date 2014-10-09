@@ -2,6 +2,13 @@
 	font-family: 'Lato', sans-serif;
 }
 
+footer {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: darkgrey;
+	font-weight: 300;
+}
+
 .container {
 }
 
@@ -13,7 +20,6 @@
 
 .content {
 	margin-top: 20px;
-	margin-bottom: 50px;
 }
 
 .title {
