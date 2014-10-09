@@ -1,0 +1,44 @@
+* {
+	font-family: 'Lato', sans-serif;
+}
+
+.header {
+	border-bottom: solid 2px grey;
+}
+
+.content {
+	margin-top: 20px;
+}
+
+.title {
+	font-weight: 200;
+}
+
+.subtitle {
+	font-weight: 300;
+}
+
+.col-md-4>p>a {
+	font-weight: 100;
+}
+
+.col-md-4>p>a:hover {
+	text-decoration: none;
+	font-weight: 300;
+}
+
+.col-md-4 .description {
+	padding: 0px 20px;	
+}
+
+img.logo {
+	width: auto;
+	height: 78px;
+	margin: 10px;
+}
+
+@media only screen and (max-width: 415px) {
+	img.logo {
+		display: none;
+	}
+}
