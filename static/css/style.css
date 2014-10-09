@@ -2,12 +2,18 @@
 	font-family: 'Lato', sans-serif;
 }
 
+.container {
+}
+
 .header {
 	border-bottom: solid 2px grey;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 .content {
 	margin-top: 20px;
+	margin-bottom: 50px;
 }
 
 .title {
@@ -31,13 +37,19 @@
 	padding: 0px 20px;	
 }
 
-img.logo {
-	width: auto;
-	height: 78px;
-	margin: 10px;
+.col-md-4>img {
+	border: solid 1px whitesmoke;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-@media only screen and (max-width: 415px) {
+img.logo {
+	width: auto;
+	height: 55px;
+	margin: 20px;
+}
+
+@media only screen and (max-width: 460px) {
 	img.logo {
 		display: none;
 	}
